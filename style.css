@@ -1,36 +1,75 @@
 html {
-    background-color: #D73CE7;
+    background-color: #586499;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    padding: 0px;
+    margin: 0px;
 }
 
 header {
-    height: 100px;
+    height: 8rem;
     width: 100%;
-    background-color: #9032B6;
-    margin-top: 0;
+    background-color: #5CD6FE;
 }
 
 main {
     width: 70%;
-    background-color: #3A4162;
+    background-color: #202341;
     margin: auto;
-}
-
-.center {
-    text-align: center;
-}
-
-.salmon{
-    color: #FF0163;
 }
 
 hr{
     color: #FE0000;
     width: 60%;
+    margin: auto;
+}
+
+p {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a:link {
+    color: #5CD6FE;
+}
+a:visited {
+    color: #FE40FF;
+}
+a:hover {
+    color: #57AAF4;
+}
+
+footer {
+    height: 6rem;
+    width: 100%;
+    background-color: #57AAF4;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.electric-blue{
+    color: #5CD6FE;
 }
 
 .red{
     color: #FE0000;
+}
+
+.dark-blue {
+    color: #202341;
+}
+
+.list {
+    margin: auto;
+    width: fit-content;
+    text-align: left;
+    padding: 5px;
 }
 
 .map {
