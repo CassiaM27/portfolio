@@ -6,6 +6,7 @@ html {
 body {
     padding: 0;
     margin: 0;
+    background-color: #202341;
 }
 
 h1 {
@@ -24,16 +25,15 @@ header {
 
 main {
     width: 70%;
-    background-color: #202341;
     margin: auto;
     margin-top: 0px;
 }
 
 hr{
-    width: 60%;
+    width: 50%;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 header>p {
@@ -48,8 +48,8 @@ main>article>h2 {
 }
 
 main>article>p {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
     padding-top: 30px;
     padding-bottom: 20px;
     font-size: 1.1rem;
@@ -63,6 +63,34 @@ a:visited {
 }
 a:hover {
     color: #57AAF4;
+}
+
+ul {
+    
+    margin-left: 25%;
+    margin-right: 25%;
+    width: fit-content;
+    text-align: left;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+
+ol {
+    margin: auto;
+    width: fit-content;
+    text-align: left;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+
+ul>li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ol>li {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 footer {
@@ -84,27 +112,33 @@ footer>div>p {
     color: #5CD6FE;
 }
 
-.red{
-    color: #FE0000;
-}
-
 .dark-blue {
     color: #202341;
 }
 
-.list {
-    margin: auto;
-    width: fit-content;
-    text-align: left;
-    padding: 5px;
-    font-size: 1.1rem;
+.about-me>p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.about-me>h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.contact-me>p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact-me>h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .map {
     height: 450px;
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
