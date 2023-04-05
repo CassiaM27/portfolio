@@ -1,0 +1,43 @@
+html {
+    background-color: #D73CE7;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #9032B6;
+    margin-top: 0;
+}
+
+main {
+    width: 70%;
+    background-color: #3A4162;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.salmon{
+    color: #FF0163;
+}
+
+hr{
+    color: #FE0000;
+    width: 60%;
+}
+
+.red{
+    color: #FE0000;
+}
+
+.map {
+    height: 450px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
